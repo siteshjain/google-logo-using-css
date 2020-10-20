@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.center{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* place-items: center; */
+}
+.logo{
+  /* margin:15rem auto 0; */
+  width:7.5rem;
+  height:5.0rem;
+  border-top:5.0rem solid #4285f4;
+  border-right:5.0rem solid #4285f4;
+  border-bottom:5.0rem solid #4285f4;
+  border-radius:0 0 25rem 0;
+  position:relative;
+  box-sizing:content-box;
+}
+
+/*-------- Red Green Yellow Color --------*/
+.logo::before{
+  content:"";
+  display:block;
+  width:25rem;
+  height:25rem;
+  border-top:5.0rem solid #ea4335;
+  border-right:5.0rem solid transparent;
+  border-bottom:5.0rem solid #34a853;
+  border-left:5.0rem solid #fbbc05;
+  border-radius:20rem;
+  box-sizing:border-box;
+  position:absolute;
+  top:-15rem;
+  right:-5rem;
+ }
